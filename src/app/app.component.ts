@@ -163,6 +163,10 @@ export class AppComponent implements OnInit {
     this.message = '';
     this.message2 = '';
     this.messageLeaveBy = '';
+
+    this.finHoursInMINS = 0;
+    this.reqHoursInMINS = 0;
+    this.finHoursMins = 0;
   }
 
   weekdaysInMonth(year, month) {
