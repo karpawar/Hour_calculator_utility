@@ -1,27 +1,30 @@
 # CalcHours
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.7.
+## Angular 4 & Electron Framework
+Initially Developed as Angular 4 WebApp, then used electron to build cross platform desktop app.
+
+## Description
+Simple Utility of text process of data from Eilisys Ascent Payroll system.
+1. Just Copy Your Ascent Monthly Data from calender
+2. Calculates Your Work Hours on basis of info you paste
+3. Shows the Diffrence
+4. Helpful enough huh ?
+
+## Sample Screens
+![alt text](./sample_screens/ascent.PNG)
+![alt text](./sample_screens/ascent_monthly_records.PNG)
+![alt text](https://github.com/karpawar/Hour_calculator_utility/blob/master/sample_screens/ascent_monthly_records_select_copy.PNG)
+![alt text](https://github.com/karpawar/Hour_calculator_utility/blob/master/sample_screens/calchrs1.PNG)
+![alt text](https://github.com/karpawar/Hour_calculator_utility/blob/master/sample_screens/calchrs2.PNG)
+![alt text](https://github.com/karpawar/Hour_calculator_utility/blob/master/sample_screens/calchrs3.PNG)
 
 ## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Git Clone
+2. npm install
+3. ng serve
 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### for Electron Refer https://www.christianengvall.se/electron-packager-tutorial/
