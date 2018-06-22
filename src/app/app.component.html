@@ -1,0 +1,55 @@
+<div class="form-style-9">
+  <ul>
+    <li>
+      <textarea name="content" class="field-style" [(ngModel)]="content" placeholder="Copy & Paste Content Here"></textarea>
+    </li>
+    <li>
+      <input type="button" (click)="OnCalculate()" value="Calculate" />
+      <input type="button" (click)="OnReset()" value="Reset" />
+    </li>
+  </ul>
+</div>
+
+<div class="form-style-9">
+  <div class="kp">
+    <ul>
+      <li>
+        <input type="button" value="Working Days      : {{dayCount}}" />
+      </li>
+      <li>
+        <input type="button" value="Required Hours    : {{reqHours}}" />
+      </li>
+      <li>
+        <input type="button" value="Completed Hours  : {{finHours}}  ({{finHoursMins}})" />
+      </li>
+      <li>
+        <h2 class="blink"><b>{{message}}</b></h2>
+        <!-- <h2 class="blink"><b>{{messageLeaveBy}}</b></h2> -->
+      </li>
+
+      <li>
+        <input type="button" value="Working Days For Month   : {{monthWorkingDays}}" />
+      </li>
+      <li>
+        <input type="button" value="Working Hours For Month  : {{monthWorkingHours}}" />
+      </li>
+
+    </ul>
+  </div>
+</div>
+
+<!-- <div class="form-style-9">
+  <div class="kp">
+    <ul>
+      <li>
+        <input type="button" value="Working Days For Month   : {{monthWorkingDays}}" />
+      </li>
+      <li>
+        <input type="button" value="Working Hours For Month  : {{monthWorkingHours}}" />
+      </li>
+      <li>
+        <h2 class="blink"><b>{{message2}}</b></h2>
+      </li>
+    </ul>
+  </div>
+</div> -->
